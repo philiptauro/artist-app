@@ -1,0 +1,19 @@
+.artist {
+  text-align: left;
+  padding: 12px;
+  margin: 12px 0; 
+  background-color: peachpuff;
+  border-radius: 12px;
+}
+.artist.--isSelected {
+  background-color: palegreen;
+}
+.artist-name {
+  margin: 2px 0;
+}
+.artist-nationality {
+  
+}
+.artist-age {
+  
+}

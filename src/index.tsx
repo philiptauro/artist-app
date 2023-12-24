@@ -4,11 +4,32 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import { createBrowserRouter,  RouterProvider } from "react-router-dom";
+import ArtistContainer from './components/artist-container/artistContainer';
+import ArtistDetail from './components/artist-detail/artistDetail';
+import AddArtist from './components/add-artist/addArtist';
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <ArtistContainer />
+  },
+  {
+    path: "/artist/:artistId",
+    element: <ArtistDetail />
+  },
+  {
+    path: "/artist/add",
+    element: <AddArtist />,
+  },
+  
+]);
+
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
+    <RouterProvider router={router} />
     <App />
   </React.StrictMode>
 );
