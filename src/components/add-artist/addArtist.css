@@ -1,0 +1,15 @@
+.add-artist {
+  margin: 12px 24px;
+  padding: 12px 24px;
+  text-align: left;
+  background-color: peachpuff;
+  border-radius: 12px;
+  flex: 1 1 40%;
+  overflow-y: auto;
+}
+.add-artist input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
