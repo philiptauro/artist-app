@@ -1,0 +1,8 @@
+.artist-container {
+  padding: 12px 24px;
+  display: flex;
+  flex-direction: row;
+  flex: 0 0 100%;
+  overflow: hidden;
+  height: calc(100vh - 24px);
+}
