@@ -1,0 +1,7 @@
+.song-detail {
+  padding: 12px 0;
+  flex: 1 1 40%;
+}
+.song-detail-key {
+  font-weight: bold;
+}
