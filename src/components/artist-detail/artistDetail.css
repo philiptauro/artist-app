@@ -1,0 +1,8 @@
+.artist-detail {
+  text-align: left;
+  padding: 12px 24px;
+  background-color: peachpuff;
+  border-radius: 12px;
+  flex: 1 1 40%;
+  overflow-y: auto;
+}
